@@ -1,0 +1,98 @@
+/* Typography and colors */
+
+.inline {
+    display: inline;
+}
+
+/* Blue */
+.blue-100 {
+    background: #add8e6;
+}
+
+.blue-200 {
+    background: #99badd;
+}
+
+.blue-300 {
+    background: #0892d0;
+}
+
+.blue-400 {
+    background:#0073cf;
+}
+
+.blue-500 {
+    background: #0f52ba;
+}
+
+.blue-600 {
+    background: #0047ab;
+}
+
+.blue-700 {
+    background: #002fa7;
+}
+
+.blue-800 {
+    background: #0000AA;
+}
+
+.blue-900 {
+    background: #000080;
+}
+
+.blue-1000 {
+    background: #000133;
+}
+
+/* Typography and colors */
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+/* Red */
+.red-100 {
+    background: #f88379;
+
+}
+
+.red-200 {
+    background: #FA6961;
+}
+
+.red-300 {
+    background: #cd5c5c;
+}
+
+.red-400 {
+    background:#E44D2E;
+}
+
+.red-500 {
+    background: rgb(202, 74, 23);
+}
+
+.red-600 {
+    background: rgb(246, 0, 0);
+}
+
+.red-700 {
+    background:rgb(233, 30, 3);
+}
+
+.red-800 {
+    background:rgb(202, 44, 23);
+}
+
+.red-900 {
+    background: rgb(207, 0, 14);
+}
+
+.red-1000 {
+    background: rgb(143, 48, 31);
+}

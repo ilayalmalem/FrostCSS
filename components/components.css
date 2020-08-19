@@ -1,0 +1,48 @@
+.header {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,  *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Card */
+
+.card {
+    box-shadow: #d3d3d3 3px 5px 12px 4px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: auto;
+}
+
+.card-b {
+    flex: 1 1 auto;
+}
+
+
+.card-b {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.50rem 1.25rem 0.50rem 1.25rem;
+}
+.card-h {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.border-none {
+    border: none!important;
+}
