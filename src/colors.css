@@ -96,3 +96,103 @@
 .red-1000 {
     background: rgb(143, 48, 31);
 }
+
+
+
+
+
+
+/* -_______________________________________- */
+
+/* Blue */
+.text-blue-100 {
+    color: #add8e6;
+}
+
+.text-blue-200 {
+    color: #99badd;
+}
+
+.text-blue-300 {
+    color: #0892d0;
+}
+
+.text-blue-400 {
+    color:#0073cf;
+}
+
+.text-blue-500 {
+    color: #0f52ba;
+}
+
+.text-blue-600 {
+    color: #0047ab;
+}
+
+.text-blue-700 {
+    color: #002fa7;
+}
+
+.text-blue-800 {
+    color: #0000AA;
+}
+
+.text-blue-900 {
+    color: #000080;
+}
+
+.text-blue-1000 {
+    color: #000133;
+}
+
+/* Typography and colors */
+
+.text-inline {
+    display: inline;
+}
+
+.text-block {
+    display: block;
+}
+
+/* Red */
+.text-red-100 {
+    color: #f88379;
+
+}
+
+.text-red-200 {
+    color: #FA6961;
+}
+
+.text-red-300 {
+    color: #cd5c5c;
+}
+
+.text-red-400 {
+    color:#E44D2E;
+}
+
+.text-red-500 {
+    color: rgb(202, 74, 23);
+}
+
+.text-red-600 {
+    color: rgb(246, 0, 0);
+}
+
+.text-red-700 {
+    color:rgb(233, 30, 3);
+}
+
+.text-red-800 {
+    color:rgb(202, 44, 23);
+}
+
+.text-red-900 {
+    color: rgb(207, 0, 14);
+}
+
+.text-red-1000 {
+    color: rgb(143, 48, 31);
+}
