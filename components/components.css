@@ -46,3 +46,7 @@
 .border-none {
     border: none!important;
 }
+
+.header[theme="dark"], .header.dark {
+    background: #461a1a;
+}
