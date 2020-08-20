@@ -1,0 +1,33 @@
+code {
+    background-color: #F3F4F4!important;
+    padding: 5px;
+    border-radius: 12px;    
+    display: block;
+}
+
+* > code{
+    border-radius: 0!important;
+}
+
+blockquote {
+    background-color: #F3F4F4!important;
+    border-left: 5px #0892d0 solid;
+    margin: 0 0 0 0;
+}
+
+blockquote > * {
+    padding: 4px 0 4px 0;
+}
+
+blockquote > * {
+    padding-left: 5px;
+}
+
+.markedowned > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.markedowned > pre > code {
+    margin-bottom: auto;
+}

@@ -9,12 +9,13 @@
 </head>
 
 <body>
+	
 	<div class="header blue-400  py-2">
 		<div class=" px-3">
 			CodeWay
 		</div>
 	</div>
-
+	<h3 class="flex jcc">Color pallete</h3>
 	<div class="flex row w-100 h-25">
 		<present class="w-25 h-100 blue-100">
 			Blue 100
@@ -98,19 +99,68 @@
 			Red 1000
 		</present>
 	</div>
-		<div class="flex mt-5 mb-5 jcc">
-			<div class="card  w-25">
+		<div class="flex mt-5 h-25 mb-5 jcc">
+			<div class="card w-25">
 				<span class="bold mb-2 card-h">
 					Card header
 				</span>
 
 				<div class="card-b thin">
 					<div class="scroll-y">
-						Card body! 
+						Light theme card! 
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="flex jcc mb-4 h-50">
+			<card class="w-25 h-25 card h-50 dark">
+				<div class="card-h">
+					Hello
+				</div>
+				<div class="card-b thin">
+					Dark theme card!
+				</div>
+			</card>
+		</div>
+
+		<div class="flex jcc h-50">
+			<card class="w-25 expandable-1 h-25 card h-50" theme="warning">
+				<div class="card-h">
+					Hello
+				</div>
+				<div class="card-b thin">
+					Warning card that expands!
+				</div>
+			</card>
+		</div>
+
+
+		<div class="flex jcc mb-5">
+			<div class="card w-25">
+				<div class="card-h markdown">
+					**Boldy!**
+				</div>
+				<div class="card-b markdown">
+					# hello frost! 
+					This is a blockquote   
+					## Blockquote  
+
+					> That's cool,_italic_ and **bold**!   
+					#### Little header!
+					____
+					* A list?
+					* Just add a class?
+					* No way! that's <span><span class="text-red-100">col</span><span class="text-blue-400">or??</span></span>
+					* Background color and padding? <span class="blue-100 p-1">Of course!</span><br>
+
+					#### Todos:
+					___
+					* ~~Learn FrostCSS~~
+					* Breath H<sub>2</sub>O
+				</div>
+			</div>
+		</div>
+		<script src="./dist/marked.js"></script>
 </body>
 
 </html>

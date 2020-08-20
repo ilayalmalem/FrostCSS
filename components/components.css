@@ -46,3 +46,56 @@
 .border-none {
     border: none!important;
 }
+
+card[theme="dark"] {
+    color: white;
+    border: 1px black solid;
+    background: #303030;
+}
+
+card[theme="dark"] > .card-h{
+    border: none;
+}
+
+.card.dark {
+    color: white;
+    border: 1px black solid;
+    background: #303030;
+}
+
+.card.dark > .card-h{
+    border: none;
+}
+
+card[theme="warning"] {
+    color: black;
+    background: yellow;
+}
+
+card[theme="warning"] > .card-h{
+    border: none;
+}
+
+.card.dark {
+    color: white;
+    border: 1px black solid;
+    background: #303030;
+}
+
+.card.dark > .card-h{
+    border: none;
+}
+
+.expandable-1 {
+    transition-duration: 500ms;
+    transition: scale(1.1) 0.5s linear;
+    -o-transition: scale(1.1) 0.5s linear;
+    -ms-transition: scale(1.1) 0.5s linear;
+    -moz-transition: scale(1.1) 0.5s linear;
+    -webkit-transition: scale(1.1) 0.5s linear;
+}
+
+.expandable-1:hover {
+    transition-duration: 500ms;
+    transform: scale(1.1);
+}

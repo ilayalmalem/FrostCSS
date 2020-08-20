@@ -4,6 +4,14 @@
     display: inline;
 }
 
+.bg-white {
+    background: white;
+}
+
+.bg-black {
+    background: black;
+}
+
 /* Blue */
 .blue-100 {
     background: #add8e6;
@@ -98,10 +106,6 @@
 }
 
 
-
-
-
-
 /* -_______________________________________- */
 
 /* Blue */
@@ -146,6 +150,14 @@
 }
 
 /* Typography and colors */
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
 
 .text-inline {
     display: inline;
