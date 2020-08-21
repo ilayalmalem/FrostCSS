@@ -9,11 +9,11 @@
 </head>
 
 <body>
-	<div class="header">
+	<div class="header dark sticky">
 		<div>
 			CodeWay
 		</div>
-		<div class="navbar">
+		<div class="navbar nav-items-animated">
 			<div class="nav-item">
 				Store
 			</div>
@@ -23,6 +23,19 @@
 			<div class="nav-item">
 				Register
 			</div>
+		</div>
+	</div>
+
+	<div class="hero-section">
+		<div class="hero-image" src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"></div>
+		<div class="hero-title text-white">
+			This is a hero section
+		</div>
+		<div class="hero-subtitle text-white">
+			Some subtext
+		</div>
+		<div class="hero-button">
+			Call to action
 		</div>
 	</div>
 	<h3 class="flex jcc">Color pallete</h3>
@@ -134,7 +147,7 @@
 		</div>
 
 		<div class="flex jcc h-50">
-			<card class="w-25 expandable-1 h-25 card h-50" theme="warning">
+			<card class="w-25 expandable h-25 card h-50" theme="warning">
 				<div class="card-h">
 					Hello
 				</div>
@@ -150,8 +163,9 @@
 				<div class="card-h markdown">
 					**Boldy!**
 				</div>
-				<div class="card-b markdown">
-					# hello frost! 
+				<div class="card-b">
+					<markdown>
+					# hello 
 					This is a blockquote   
 					## Blockquote  
 
@@ -167,6 +181,7 @@
 					___
 					* ~~Learn FrostCSS~~
 					* Breath H<sub>2</sub>O
+				</markdown>
 				</div>
 			</div>
 		</div>
@@ -240,20 +255,68 @@
 			</div>
 		</div>
 
-		<div class="flex jcc">
-			<div class="hero-section">
-				<div class="hero-image" src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"></div>
-				<div class="hero-title text-white">
-					This is a hero section
+
+		<div class="markdown mb-5 jcc aic w-100 flex column">
+			# Practical usage
+			### Example 1 - the news site
+		</div>
+
+		<div class="header dark">
+			NewsNow
+			<div class="navbar-right nav-items-animated">
+				<div class="nav-item">
+					News
 				</div>
-				<div class="hero-subtitle text-white">
-					Some subtext
+				<div class="nav-item">
+					Register
 				</div>
-				<div class="hero-button">
-					Call to action
+				<div class="nav-item">
+					Login
 				</div>
 			</div>
 		</div>
+
+		<div class="w-25 flex ml-2 text-large mt-3">
+			Today's news
+		</div>
+
+		<div class="article-row-horizontal">
+			<div class="article">
+				<div class="article-title big-first-letter">
+					Doctors who say Russian opposition leader wasn't poisoned 'are untrustworthy'
+				</div>
+				<div class="article-image">
+					<img src="https://cdn.cnn.com/cnnnext/dam/assets/200820092523-file-01-alexey-navalny-2019-medium-tease.jpg" alt="">
+				</div>
+				<div class="article-body">
+					Moscow (CNN)The Siberian hospital treating Alexey Navalny on Friday rejected claims the Russian opposition leader had been poisoned, as his wife said the doctors could not be trusted
+				</div>
+			</div>
+
+			<div class="article">
+				<div class="article-title">
+					New Zealand PM Jacinda Ardern wants to eliminate coronavirus. Is she setting herself up to fail?
+				</div>
+				<div class="article-image">
+					<img src="https://cdn.cnn.com/cnnnext/dam/assets/200427042320-jacinda-ardern-press-conference-0427-medium-plus-169.jpg" alt="">
+				</div>
+				<div class="article-body">
+					How New Zealand 'eliminated' Covid-19 after weeks of lockdown
+				</div>
+			</div>
+
+			<div class="article">
+				<div class="article-title">
+					Florida man accuesed of Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quo obcaecati ducimus ea facere, saepe exercitationem, harum similique modi explicabo impedit. Numquam dolore nemo placeat deserunt quam incidunt. Aspernatur, nesciunt? 
+				</div>
+			</div>
+			<div class="article">
+				<div class="article-title">
+					Florida man accuesed of Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quo obcaecati ducimus ea facere, saepe exercitationem, harum similique modi explicabo impedit. Numquam dolore nemo placeat deserunt quam incidunt. Aspernatur, nesciunt? 
+				</div>
+			</div>
+		</div>
+
 		<script src="./dist/marked.js"></script>
 		<script src="./dist/hero-image.js"></script>
 </body>

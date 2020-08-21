@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.col {
+.column {
     flex-direction: column;
 }
 
@@ -36,4 +36,8 @@
 
 .flex-grow-100 {
     flex-grow: 100;
+}
+
+.space-between {
+    justify-content: space-between;
 }

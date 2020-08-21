@@ -10,6 +10,12 @@
     padding: 1rem 0 1rem 1.5rem;
 }
 
+.sticky {
+    top: 0;
+    z-index: 99999;
+    position: fixed;
+}
+
 .header[theme="dark"], .header.dark {
     display: flex;
     background: #461a1a;
@@ -138,7 +144,7 @@ card[theme="warning"] > .card-h{
     border: none;
 }
 
-.expandable-1 {
+.expandable {
     transition-duration: 500ms;
     transition: scale(1.1) 0.5s linear;
     -o-transition: scale(1.1) 0.5s linear;
@@ -147,7 +153,7 @@ card[theme="warning"] > .card-h{
     -webkit-transition: scale(1.1) 0.5s linear;
 }
 
-.expandable-1:hover {
+.expandable:hover {
     transition-duration: 500ms;
     transform: scale(1.1);
 }
@@ -198,4 +204,46 @@ card[theme="warning"] > .card-h{
     margin-top: 2rem;
     cursor: pointer;
     padding: 5px 12px 5px 12px;
+}
+
+
+/* Article */
+
+.article-row-horizontal {
+    margin-bottom: 5rem;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.article {
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: #d3d3d3 1px 1px 13px 1px;
+    margin: 5rem 10px 5rem 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+
+.article > .article-title {
+    max-width: 100%;
+    white-space: nowrap;
+	overflow: auto;
+}
+
+.article > .article-title::first-letter {
+    display:block!important;
+    padding-right: 0.1rem;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.article-image {
+    object-fit: cover;
+}
+
+.article > .article-body {
+    border-left: 5px #0892d0 solid;
+    padding-left: 0.50rem;
 }

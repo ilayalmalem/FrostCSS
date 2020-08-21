@@ -16,9 +16,7 @@ window.addEventListener('load', () => {
         var preped= '';
 
         markdown.forEach((el) => {
-            if(el.trim() == ''){
-            }
-            else {
+            if(!el.trim() == ''){
                 preped += el.trim() + '\n';
                 preped = preped.replace('&gt;','>')
             }
