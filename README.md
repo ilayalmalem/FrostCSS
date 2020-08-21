@@ -1,4 +1,4 @@
-# ssxcss
+# FrostCSS 
 No more css files, access all of your favourite css utilities just by adding classes to your elements. 
 
 

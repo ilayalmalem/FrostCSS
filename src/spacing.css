@@ -1,3 +1,17 @@
+/* Elements */
+.content {
+    /* Full width element */
+    width: 100%;
+}
+
+.content-3 {
+    /* 3/4 screen width */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .w-25 {
     width: 25%;
 }

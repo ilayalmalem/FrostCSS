@@ -1,9 +1,60 @@
+/* Headers */
 .header {
+    background: #0073cf;
+    display: flex;
     flex-wrap: wrap;
     display: flex;
     width: 100%;
     color: white;
     font-family: 'Nunito', sans-serif;
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.header[theme="dark"], .header.dark {
+    display: flex;
+    background: #461a1a;
+}
+
+/* Navbars */
+
+.navbar,.navbar-right,.navbar-left {
+    padding-right: 4rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar, .navbar-right, .navbar-left {
+    flex-grow: 100;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar > *, .navbar-left > *, .navbar-right > *{
+    padding-left: 12px;
+}
+
+.nav-item-animated {
+    transition-duration: 500ms;
+}
+
+.nav-item-animated:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 500ms;
+}
+
+.nav-items-animated > * {
+    transition-duration: 500ms;
+}
+
+.nav-items-animated > *:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 500ms;
 }
 
 *,  *::before, *::after {
@@ -13,12 +64,13 @@
 /* Card */
 
 .card {
-    box-shadow: #d3d3d3 3px 5px 12px 4px;
+    box-shadow: #d3d3d3 1px 1px 13px 1px;
     position: relative;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
+    background: #ffffff;
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
@@ -67,7 +119,7 @@ card[theme="dark"] > .card-h{
     border: none;
 }
 
-card[theme="warning"] {
+.card.warning, .card[theme="warning"], card[theme="warning"] {
     color: black;
     background: yellow;
 }
@@ -98,4 +150,52 @@ card[theme="warning"] > .card-h{
 .expandable-1:hover {
     transition-duration: 500ms;
     transform: scale(1.1);
+}
+
+
+/* .hero-section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.hero-section > .hero-title {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large   ;
+    width: 100%;
+    /* border: 1px black solid; */
+}
+
+
+.hero-section > .hero-subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    width: 100%;
+    /* border: 1px black solid; */
+}
+
+.hero-divider {
+    margin-top: 10px;
+    width: 60%;
+}
+
+.hero-button {
+    box-shadow: #d3d3d3 0px 0px 2px 0px;
+    background-color: #0073cf;
+    color: white;
+    border-radius: 100px;
+    margin-top: 2rem;
+    cursor: pointer;
+    padding: 5px 12px 5px 12px;
 }

@@ -25,3 +25,15 @@
 .aic {
     align-items: center;
 }
+
+.wrap {
+    flex-wrap: wrap!important;
+}
+
+.fit-4 > * {
+    width: 25%;
+}
+
+.flex-grow-100 {
+    flex-grow: 100;
+}

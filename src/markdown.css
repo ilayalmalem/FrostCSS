@@ -1,18 +1,29 @@
-code {
+.markedowned > p > code {
     background-color: #F3F4F4!important;
-    padding: 5px;
-    border-radius: 12px;    
-    display: block;
+    padding: 3px;
+    border-radius: 3px;    
+    display: inline;
 }
 
-* > code{
-    border-radius: 0!important;
+.markedowned {
+    color: black;
+}
+
+.markedowned.markdown-text-black > p > code, .markedowned.markdown-text-black > blockquote{
+    color: black;
 }
 
 blockquote {
     background-color: #F3F4F4!important;
     border-left: 5px #0892d0 solid;
     margin: 0 0 0 0;
+}
+
+blockquote > p > code{
+    padding:3px;
+    border-radius: 3px;
+    background-color: rgb(103, 223, 223)!important;
+    margin: 0 0 0 4px;
 }
 
 blockquote > * {
@@ -28,6 +39,7 @@ blockquote > * {
     margin-bottom: 0;
 }
 
-.markedowned > pre > code {
-    margin-bottom: auto;
+.markedowned > p {
+    margin-left: 0.10rem;
+    display: inline;
 }
